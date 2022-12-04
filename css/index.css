@@ -48,6 +48,48 @@ nav a {
     border-radius: 10px;
 }
 
+main {
+    margin: 40px auto;
+    width: 80%;
+}
+
+form {
+    background-color: #024c;
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px #222;
+    border: 0 solid;
+    border-radius: 20px;
+}
+
+label, form p,
+input,
+textarea {
+    display: inline-block;
+    padding: 10px;
+    margin: auto 5px;
+    vertical-align: middle;
+}
+
+label {
+    width: 15%;
+}
+
+input,
+textarea {
+    background-color: #06c;
+    margin: 5px;
+    border-radius: 10px;
+    border: 0 solid;
+    font-size: 18px;
+}
+
+textarea {
+    width: 50%;
+}
+
+
 article {
     background-color: #048c;
     border-radius: 20px;

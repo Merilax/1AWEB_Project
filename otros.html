@@ -19,11 +19,58 @@
             <a href="./otros.html" target="_self">Otros</a>
         </nav>
     </header>
-    <aside>
-        <ul>
-            <li></li>
-        </ul>
-    </aside>
+
+    <main>
+        <h1>Soporte técnico</h1>
+
+        <form action="mailto:danielzhuravlev.home@gmail.com" method="get">
+            <div>
+                <label for="inNombre">NOMBRE:</label>
+                <input type="text" name="name" maxlength="25" id="inNombre">
+            </div>
+
+            <div>
+                <label for="inApellidos">APELLIDOS:</label>
+                <input type="text" name="surname" maxlength="50" id="inApellidos" size="40">
+            </div>
+
+            <div>
+                <label for="inFecha">FECHA DE NACIMIENTO:</label>
+                <input type="date" name="birthdate" id="inFecha">
+            </div>
+
+            <div>
+                <label for="inCorreo">CORREO ELECTRÓNICO:</label>
+                <input type="email" name="address" value="@gmail.com" id="inCorreo">
+            </div>
+            
+            <p>¿DESEA COMPARTIR SU CORREO CON EL EQUIPO DE DESARROLLO?</p>
+            <div>
+                <label for="inChoiceTrue">Sí</label>
+                <input type="radio" name="choice" id="inChoiceTrue" value="true">
+            </div>
+            <div>
+                <label for="inChoiceFalse">No</label>
+                <input type="radio" name="choice" id="inChoiceFalse" value="false">
+            </div>
+
+            <div>
+                <label for="inDesc">DESCRIBA SU PROBLEMA:</label>
+                <textarea name="description" id="inDesc" maxlength="2000"></textarea>
+            </div>
+
+            <div>
+                <label for="inFile">ARCHIVOS ADICIONALES</label>
+                <input type="file" name="files" id="inFile">
+            </div>
+
+            <div style="text-align: right;">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reestablecer">
+            </div>
+        </form>
+    </main>
+
 </body>
 
 </html>
