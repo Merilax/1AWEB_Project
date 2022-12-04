@@ -6,7 +6,18 @@
 }
 
 body {
-    background-color: #111;
+    /* background-color: #111; */
+    background-image: url("https://gifimage.net/wp-content/uploads/2018/10/background-gif-1920x1080.gif");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 header {
@@ -15,6 +26,7 @@ header {
     background-color: #06c;
     padding: 10px;
     box-shadow: 0 0 10px #222;
+    position: sticky;
 }
 
 #logotext {
@@ -37,7 +49,7 @@ nav a {
 }
 
 article {
-    background-color: #048;
+    background-color: #048c;
     border-radius: 20px;
     padding: 20px;
     margin: 20px auto;
