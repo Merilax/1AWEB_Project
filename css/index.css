@@ -49,7 +49,7 @@ nav a {
 }
 
 main {
-    margin: 40px auto;
+    margin: 20px auto;
     width: 80%;
 }
 
@@ -63,7 +63,8 @@ form {
     border-radius: 20px;
 }
 
-label, form p,
+label,
+form p,
 input,
 textarea {
     display: inline-block;
@@ -88,7 +89,6 @@ textarea {
 textarea {
     width: 50%;
 }
-
 
 article {
     background-color: #048c;
