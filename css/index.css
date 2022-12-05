@@ -9,6 +9,12 @@ a {
     color: #09f;
 }
 
+/*
+a:visited {
+    color: #059;
+}
+*/
+
 p {
     padding: 10px 0;
 }
