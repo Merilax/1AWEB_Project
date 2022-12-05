@@ -5,6 +5,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    color: #09f;
+}
+
+p {
+    padding: 10px 0;
+}
+
 body {
     /* background-color: #111; */
     background-image: url("https://gifimage.net/wp-content/uploads/2018/10/background-gif-1920x1080.gif");
@@ -26,7 +34,10 @@ header {
     background-color: #06c;
     padding: 10px;
     box-shadow: 0 0 10px #222;
-    position: sticky;
+}
+
+header a {
+    color: #eee;
 }
 
 #logotext {
@@ -126,8 +137,28 @@ ul {
     list-style-type: none;
 }
 
+li {
+    padding: 5px;
+}
+
 footer {
     display: block;
     position: fixed;
     bottom: 0;
+}
+
+#acercaDe .left,
+#acercaDe .right {
+    max-width: 45%;
+}
+
+#acercaDePagina, table {
+    background-color: #048c;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+td {
+    padding: 6px;
 }
