@@ -33,6 +33,14 @@ td {
     padding: 6px;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 /* BODY */
 
 body {
@@ -102,13 +110,12 @@ footer {
 /* INDEX MAIN */
 
 article {
-    background-color: #048c;
+    /*background-color: #048c;*/
     border-radius: 20px;
     padding: 20px;
     margin: 20px auto;
 
-    max-width: 50%;
-    max-height: 20%;
+    max-width: 80%;
 }
 
 article span {
@@ -121,16 +128,13 @@ article img {
     margin: 0 10px;
     border-radius: 5px;
     object-fit: cover;
-    height: 120px;
-    width: 210px;
-}
-
-.right {
+    width: 600px;
     float: right;
 }
 
-.left {
-    float: left;
+article h1 {
+    font-size: 60px;
+    margin: 20px 0 40px;
 }
 
 /* ACERCA DE */
@@ -215,14 +219,16 @@ textarea {
     height: 40px;
     padding: 7px 0;
 }
+
 .card p {
     overflow-y: auto;
     max-height: fit-content;
     height: 130px;
     max-height: 130px;
 }
+
 .card p::-webkit-scrollbar {
-    display: none ;
+    display: none;
 }
 
 .card span {
