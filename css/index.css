@@ -1,3 +1,5 @@
+/* SETUP */
+
 * {
     margin: auto;
     text-decoration: none;
@@ -19,6 +21,8 @@ p {
     padding: 10px 0;
 }
 
+/* BODY */
+
 body {
     /* background-color: #111; */
     background-image: url("https://gifimage.net/wp-content/uploads/2018/10/background-gif-1920x1080.gif");
@@ -32,7 +36,10 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+    /* Oculta scroll manteniendo su función */
 }
+
+/* HEADER (NAV) */
 
 header {
     width: 80vw;
@@ -53,6 +60,8 @@ header a {
     margin: 30px 50px;
 }
 
+/* NAV SUPERIOR */
+
 nav {
     float: right;
 }
@@ -70,42 +79,15 @@ main {
     width: 80%;
 }
 
-form {
-    background-color: #024c;
-    width: 100%;
-    margin: 20px 0;
-    padding: 15px;
-    box-shadow: 0 0 10px #222;
-    border: 0 solid;
-    border-radius: 20px;
+/* FOOTER */
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
 }
 
-label,
-form p,
-input,
-textarea {
-    display: inline-block;
-    padding: 10px;
-    margin: auto 5px;
-    vertical-align: middle;
-}
-
-label {
-    width: 15%;
-}
-
-input,
-textarea {
-    background-color: #06c;
-    margin: 5px;
-    border-radius: 10px;
-    border: 0 solid;
-    font-size: 18px;
-}
-
-textarea {
-    width: 50%;
-}
+/* INDEX MAIN */
 
 article {
     background-color: #048c;
@@ -147,18 +129,15 @@ li {
     padding: 5px;
 }
 
-footer {
-    display: block;
-    position: fixed;
-    bottom: 0;
-}
+/* ACERCA DE */
 
 #acercaDe .left,
 #acercaDe .right {
     max-width: 45%;
 }
 
-#acercaDePagina, table {
+#acercaDePagina,
+table {
     background-color: #048c;
     border-radius: 20px;
     padding: 20px;
@@ -167,4 +146,97 @@ footer {
 
 td {
     padding: 6px;
+}
+
+/* SOPORTE */
+
+form {
+    background-color: #024c;
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px #222;
+    border: 0 solid;
+    border-radius: 20px;
+}
+
+label,
+form p,
+input,
+textarea {
+    display: inline-block;
+    padding: 10px;
+    margin: auto 5px;
+    vertical-align: middle;
+}
+
+label {
+    width: 15%;
+}
+
+input,
+textarea {
+    background-color: #06c;
+    margin: 5px;
+    border-radius: 10px;
+    border: 0 solid;
+    font-size: 18px;
+}
+
+textarea {
+    width: 50%;
+}
+
+/* TIENDA */
+
+.main_tienda {
+    width: fit-content;
+    max-width: 80%;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    height: 500px;
+    background-color: #048c;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.card h3 {
+    overflow-y: hidden;
+    height: 40px;
+    padding: 7px 0;
+}
+.card p {
+    overflow-y: auto;
+    max-height: fit-content;
+    height: 130px;
+    max-height: 130px;
+}
+.card p::-webkit-scrollbar {
+    display: none ;
+}
+
+.card span {
+    display: inline-block;
+    background-color: #09f;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 5px;
+    margin: 6px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card a {
+    color: #eee;
 }
