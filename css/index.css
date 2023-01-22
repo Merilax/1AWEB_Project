@@ -21,6 +21,18 @@ p {
     padding: 10px 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+}
+
+td {
+    padding: 6px;
+}
+
 /* BODY */
 
 body {
@@ -121,14 +133,6 @@ article img {
     float: left;
 }
 
-ul {
-    list-style-type: none;
-}
-
-li {
-    padding: 5px;
-}
-
 /* ACERCA DE */
 
 #acercaDe .left,
@@ -142,10 +146,6 @@ table {
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
-}
-
-td {
-    padding: 6px;
 }
 
 /* SOPORTE */
