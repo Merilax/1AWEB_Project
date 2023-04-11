@@ -23,35 +23,35 @@
     <main>
         <h1>Soporte técnico</h1>
 
-        <form action="mailto:danielzhuravlev.home@gmail.com" method="get">
+        <form action="./supportForm.php" method="post" id="supportForm">
             <div>
                 <label for="inNombre">NOMBRE:</label>
-                <input type="text" name="name" maxlength="25" id="inNombre">
+                <input type="text" name="name" maxlength="25" id="inNombre" />
             </div>
 
             <div>
                 <label for="inApellidos">APELLIDOS:</label>
-                <input type="text" name="surname" maxlength="50" id="inApellidos" size="40">
+                <input type="text" name="surname" maxlength="50" id="inApellidos" size="40" />
             </div>
 
             <div>
                 <label for="inFecha">FECHA DE NACIMIENTO:</label>
-                <input type="date" name="birthdate" id="inFecha">
+                <input type="date" name="birthdate" id="inFecha" />
             </div>
 
             <div>
                 <label for="inCorreo">CORREO ELECTRÓNICO:</label>
-                <input type="email" name="address" value="@gmail.com" id="inCorreo">
+                <input type="email" name="address" value="@gmail.com" id="inCorreo" />
             </div>
-            
+
             <p>¿DESEA RECIBIR ACTUALIZACIONES DEL SOPORTE?</p>
             <div>
                 <label for="inChoiceTrue">Sí</label>
-                <input type="radio" name="choice" id="inChoiceTrue" value="true">
+                <input type="radio" name="choice" id="inChoiceTrue" value="true" />
             </div>
             <div>
                 <label for="inChoiceFalse">No</label>
-                <input type="radio" name="choice" id="inChoiceFalse" value="false">
+                <input type="radio" name="choice" id="inChoiceFalse" value="false" />
             </div>
 
             <div>
@@ -61,16 +61,17 @@
 
             <div>
                 <label for="inFile">ARCHIVOS ADICIONALES</label>
-                <input type="file" name="files" id="inFile">
+                <input type="file" name="files" id="inFile" />
             </div>
 
             <div style="text-align: right;">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Reestablecer">
+                <input type="button" value="Enviar" onclick="validateForm()" />
+                <input type="reset" value="Reestablecer" />
             </div>
         </form>
     </main>
 
+    <script src="js/form.js"></script>
 </body>
 
 </html>

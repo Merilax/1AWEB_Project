@@ -44,11 +44,12 @@ td {
 /* BODY */
 
 body {
-    /* background-color: #111; */
-    background-image: url("https://gifimage.net/wp-content/uploads/2018/10/background-gif-1920x1080.gif");
-    background-size: contain;
+    background-color: #111;
+    background-image: url("https://wallpapercave.com/wp/wp2757874.gif"); /* https://gifimage.net/wp-content/uploads/2018/10/background-gif-1920x1080.gif >> No funcionaba */
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     scrollbar-width: none;
     -ms-overflow-style: none;
