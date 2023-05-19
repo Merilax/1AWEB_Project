@@ -1,0 +1,24 @@
+<?xml-model href="rss.dtd" type="application/xml-dtd" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Servicio de anuncios Delirium</title>
+        <link>https://merilax.github.io/1AWEB_Project/</link>
+        <description>Servicio RSS para notificaciones sobre actualizaciones de la tienda informática Delirium Technologies.</description>
+        <language>es</language>
+        <item>
+            <title>Nuevo producto: Lenovo V15 IGL</title>
+            <link>https://www.pccomponentes.com/lenovo-v15-igl-intel-celeron-n4020-8gb-256-gb-ssd-156</link>
+            <description>Considera el Lenovo V15 de 38,1 cm (15" Intel) como tu jefe de oficina, capaz de llevar a cabo tus tareas del día a día con eficiencia.</description>
+        </item>
+        <item>
+            <title>Nuevo producto: HP Victus 16-e0101ns</title>
+            <link>https://www.pccomponentes.com/hp-15s-fq2159ns-intel-core-i3-1115g4-8gb-256gb-ssd-156</link>
+            <description>Gracias a un procesador AMD, el portátil Victus by HP de 16,1 pulgadas cuenta con todas las características que necesitas para jugar y utilizarlo en tu día a día. Consigue más flexibilidad al jugar con un teclado para videojuegos polivalente y disfruta de una pantalla con frecuencia de actualización y sin tearing.</description>
+        </item>
+        <item>
+            <title>Actualización de términos de uso</title>
+            <link>https://merilax.github.io/1AWEB_Project/acerca.html</link>
+            <description>Vamos a actualiza los términos de uso de nuestra tienda para todos los usuarios [...]</description>
+        </item>
+    </channel>
+</rss>
