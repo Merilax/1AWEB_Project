@@ -41,6 +41,13 @@ td {
     float: right;
 }
 
+#rss {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
 /* BODY */
 
 body {
